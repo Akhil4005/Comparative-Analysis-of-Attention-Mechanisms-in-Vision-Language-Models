@@ -37,7 +37,7 @@ The **AdamW Optimizer**, learning rate scheduling, and **model parallelism** tec
 ## Project Structure:
 
 ### Methodology:
-We used a two-stage training approach to understand the impact of **attention mechanisms**:
+We used a two-stage training approach to understand the impact of the **attention mechanisms**:
 1. **Stage 1 (Low Resolution)**: Initially trained at a resolution of 224x224, focusing on quickly capturing basic patterns and relationships between the image and textual descriptions.
 2. **Stage 2 (High Resolution)**: Fine-tuned at 448x448 to focus on detailed and complex patterns, testing both **Window Attention** and **Global Attention** mechanisms.
 
